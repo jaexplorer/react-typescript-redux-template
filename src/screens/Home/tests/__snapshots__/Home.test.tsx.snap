@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component 1`] = `
+<div>
+  <div
+    class="HomeStyles__HomeContainer-sc-1hdjp89-0 jqmEwD"
+  >
+    Hello World
+  </div>
+</div>
+`;
