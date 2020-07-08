@@ -3,7 +3,6 @@
     "eslint"
   ],
   "**/*.+(js|json|jsx|ts|tsx)": [
-    "prettier --write",
-    "git add"
+    "prettier --write"
   ]
 }
