@@ -1,0 +1,87 @@
+/* Setup
+------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Bold.otf') format('otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Light.otf') format('otf');
+  font-weight: lighter;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eceef0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Scaling
+------------------------------------------------------------------- */
+@media (max-height: 598px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 599px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-height: 599px) and (min-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-height: 699px) and (min-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-height: 899px) and (min-width: 1000px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (min-height: 999px) and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-height: 1099px) and (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
+}
