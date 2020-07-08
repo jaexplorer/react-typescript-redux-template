@@ -4,7 +4,6 @@ import useStrings from '../../lib/Strings';
 
 const Home: FC<HomeProps> = () => {
   const [strings] = useStrings();
-
   return <HomeContainer>{strings.HomeScreen.title}</HomeContainer>;
 };
 
