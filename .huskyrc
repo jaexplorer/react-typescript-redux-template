@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "yarn lint && yarn format && yarn test:nowatch"
+    "pre-commit": "lint-staged && yarn test:nowatch"
   }
 }
