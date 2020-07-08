@@ -6,7 +6,6 @@
   "jsxSingleQuote": false,
   "printWidth": 100,
   "endOfLine": "lf",
-  "proseWrap": "preserve",
   "quoteProps": "consistent",
   "semi": true,
   "singleQuote": true,
