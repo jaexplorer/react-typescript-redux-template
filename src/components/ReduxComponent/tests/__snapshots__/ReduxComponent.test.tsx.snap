@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component 1`] = `
+<div>
+  <div
+    class="ReduxComponentStyles__ReduxComponentContainer-sc-1ufayrv-0 cREbXH"
+  >
+    <div
+      class="ReduxComponentStyles__Loading-sc-1ufayrv-1 jDtfMS"
+    />
+  </div>
+</div>
+`;
