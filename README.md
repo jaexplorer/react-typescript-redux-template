@@ -38,7 +38,7 @@ The idea is to make code as reuseable and clean as possible. A few tricks to ach
 │   │       ├── SomeComponent.tsx
 │   │       └── SomeComponentStyles.ts
 │   ├── lib/
-│   │   │── Redux/
+│   │   │── Redux/ <--- This can be replaced with Apollo or Sagas
 │   │   │   ├── Actions
 │   │   │   │   └── example.ts
 │   │   │   ├── Reducers
@@ -53,7 +53,7 @@ The idea is to make code as reuseable and clean as possible. A few tricks to ach
 │   │   │── Constants.ts
 │   │   │── Strings.ts
 │   │   │── Theme.ts
-│   │   │── Types.ts
+│   │   │── Types.ts <--- This can be a folder
 │   │   └── Utils.ts
 │   ├── navigation/
 │   │   └── Router.tsx
